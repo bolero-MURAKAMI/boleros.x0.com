@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@import url(core.css);
+
+
+
+/*@font-face {
+	font-family: "A-OTF リュウミン Pro L-KL";
+	src: url(../fonts/A-OTF-RyuminPro-Light.otf) format('opentype');
+}
+@font-face {
+	font-family: "A-OTF リュウミン Pro M-KL";
+	src: url(../fonts/A-OTF-RyuminPro-Medium.otf) format('opentype');
+}*/
+
+
+
+body {
+	text-align: center;
+	background: #302833;
+	font-family: 'メイリオ',Meiryo,sans-serif,Verdana,'ＭＳ Ｐゴシック','ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro',Osaka;
+}
+
+
+
+/* novel_container */
+#novel_container {
+	width: 213mm;
+	margin: 0 auto;
+	background: #f7fcfe;
+	text-align: left;
+}
+
+
+
+/* novel_block */
+.novel_block {
+	float: left;
+	display: inline;
+	width: 212mm;
+	background: #f7fcfe;
+	text-align: left;
+}
+/* novel_body */
+.novel_body {
+	margin-left: 22mm;
+	margin-top: 10mm;
+	margin-right: 20mm;
+	margin-bottom: 15mm;
+}
+/* novel_text */
+.novel_text p {
+	/*padding-top: 2mm;
+	padding-bottom: 2mm;*/
+	line-height: 8mm;
+	font-size: 4mm;
+	color: #0d0015;
+	font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+.novel_text p ruby rp {
+	font-size: 2.5mm;
+}
+.novel_text p ruby rt {
+	font-size: 2.5mm;
+}
+.novel_text p .notes {
+	font-size: 3mm;
+}
+
+/* novel_header */
+.novel_header {
+	float: none;
+	width: 212mm;
+	height: 15mm;
+	padding-top: 5mm;
+	padding-bottom: 2mm;
+	background: #e8ecef;
+	text-align: center;
+	line-height: 5mm;
+	font-size: 3mm;
+	color: #ba2636;
+	font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+/* novel_footer */
+.novel_footer {
+	width: 212mm;
+	height: 15mm;
+	padding-top: 2mm;
+	padding-bottom: 5mm;
+	background: #e8ecef;
+	text-align: center;
+	line-height: 5mm;
+	font-size: 3mm;
+	color: #165e83;
+	font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+
+/* footer_transparent */
+.footer_transparent {
+	color: #e8ecef;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+	font-size: 1px;
+	line-height: 0;
+}
+p {
+	line-height: 1.2;
+	font-size: 10pt;
+	color: #250d00;
+}
+a {
+	color: #74325c;
+}
+a:link {
+	color: #74325c;
+}
+a:visited {
+	color: #460e44;
+}
+a:hover {
+	color: #cc7eb1;
+}
+ul {
+	padding-left: 20px;
+	padding-bottom: 5px;
+	margin: 5px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+ul li {
+	padding-left: 5px;
+	padding-bottom: 10px;
+	margin: 5px;
+	font-size: 10pt;
+}
+ul li a {
+	font-size: 10pt;
+}
+h1 {
+	line-height: 2.0;
+	font-size: 18pt;
+	color: #2c4f54;
+}
+h2 {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	line-height: 1.6;
+	font-size: 14pt;
+	color: #4f455c;
+	border-left: 10px solid #4f455c;
+}
+h3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.2;
+	font-size: 10pt;
+	color: #4f455c;
+	border-bottom: 1px dotted #4f455c;
+}
+body {
+	text-align: center;
+	background: #2b2b2b;
+	font-family: 'メイリオ',Meiryo,sans-serif,Verdana,'ＭＳ Ｐゴシック','ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro',Osaka;
+}
+
+
+
+/* container */
+#container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+
+/* top_block */
+.top_block {
+	float: left;
+	display: inline;
+	width: 960px;
+	background: #fffffc;
+	text-align: left;
+}
+/* top_body */
+.top_body {
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-right: 120px;
+	margin-bottom: 20px;
+}
+/* top_header */
+.top_header {
+	float: none;
+	width: 960px;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background: #c0c6c9;
+}
+/* top_footer */
+.top_footer {
+	width: 960px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background: #c0c6c9;
+}
+/* top_text */
+.top_text {
+	padding-left: 20px;
+	padding-bottom: 5px;
+	margin: 5px;
+}
+
+/* latest */
+.latest {
+	color: #e60033;
+	background: #FFF;
+}
+/* unavailable */
+.unavailable {
+	color: #7b7c7d;
+}
+
+
+
+/* 再使用できる各種クラス */
+.fltrt { /* このクラスは、ページ上でフローティングエレメントを右側に配置するのに使用できます。プローティングエレメントは、ページ上でその横に配置されるエレメントの前に配置される必要があります。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* このクラスは、ページ上でフローティングエレメントを左側に配置するのに使用できます */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* このクラスは、div またはブレークエレメントに適用される必要があり、また、フローティングエレメントが完全に含まれているコンテナの末尾の直前にある最後のエレメントである必要があります */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
